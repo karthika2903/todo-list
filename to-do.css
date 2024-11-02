@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: greenyellow; */
+    background-image: linear-gradient(to right,#085078,#85d8ce);
+
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+#todo{
+    /* border: transparent; */
+    /* background-color: whitesmoke; */
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+    background-color: white;
+    border-radius: 10px
+}
+#to{
+    display: flex;
+    justify-content: space-around;
+    /* height: 50px; */
+    /* margin: 80px; */
+}
+#butt{
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-color: rgb(8, 100, 136);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.whole{
+    /* height: 300px; */
+    width: 280px;
+    /* background-color:purple; */
+    margin-top: 180px;
+    border-radius: 10px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 255px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.delbutton{
+    height: 30px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.check{
+    height: 30px;
+    width: 25px;
+    /* background-color: rgb(8, 100, 136); */
+    /* border-color: rgb(106, 29, 194); */
+}
+
+
+
